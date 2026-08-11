@@ -4,7 +4,7 @@ title: Policy for the use of AI/LLM
 permalink: /ai/
 ---
 
-`[draft v2026-07-13]`
+`[draft v2026-08-11]`
 
 <br>
 * auto-generated ToC
@@ -29,7 +29,7 @@ AI tools can help you learn, but they must not replace your learning.
 | ⚠️ Drafting text submitted as assessed work	| Check course-specific guidelines on LLM/AI use for additional requirements. Complete disclosure required — see rules below |
 | ⚠️ Code generation (submitted assignments)	|	Check course-specific guidelines. If allowed, disclose and be prepared to explain every line in an oral authenticity check |
 | ❌ Using AI during a closed written exam	|	Prohibited unless the examiner explicitly permits it and announces this before the exam starts |
-| ❌ Submitting AI-generated code, text and images without disclosure	|	Counts as fraud — see below |
+| ❌ Submitting AI-generated code, text, and images without disclosure	|	Counts as fraud — see below |
 
 
 ### Your responsibility
@@ -95,7 +95,7 @@ The thesis is the culmination of the MSc Geomatics for the Built Environment pro
 
 **Suspicion of fraud is sufficient for the teacher to conduct an oral authenticity check** to verify the student's knowledge and authorship of the submitted work.
 
-If the oral check raises further concerns, the teacher will report the case as suspected fraud to the **Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment.
+If the oral check raises further concerns, the teacher will report the case as suspected fraud to the [**Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners).
 
 The BoE determines whether fraud has occurred and decides on sanctions in accordance with the TU Delft Examination Regulations.
 
@@ -124,7 +124,7 @@ The BoE determines whether fraud has occurred and decides on sanctions in accord
 
 If you suspect that fraud might have taken place, you must request an oral authenticity check to verify the student's knowledge and authorship of the submitted work.
 
-If the oral check raises further concerns, the teacher will report the case as suspected fraud to the [**Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners).
+If the oral check raises further concerns, you have to report the case as suspected fraud to the **Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment. The BoE determines whether fraud has occurred and decides on sanctions, in accordance with the TU Delft Examination Regulations.
 
 If the oral authenticity check raises concerns but does not clearly confirm or refute fraud, you may ask them to do a retake of the submitted assignment.
 
@@ -136,3 +136,8 @@ If the oral authenticity check raises concerns but does not clearly confirm or r
 - [TU Delft Code of Conduct](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/tu-delft-code-of-conduct)
 - [TU Delft Academic Integrity](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/academic-integrity)
 - [Netherlands Code of Conduct for Research Integrity](https://www.nwo.nl/en/netherlands-code-conduct-research-integrity)
+
+
+## Typos? Something to improve?
+
+The source of this document is on [TU Delft GitLab](https://gitlab.tudelft.nl/mscgeomatics/ai-taskforce/-/blob/main/policy/gm_ai_policy.md), login with your netid, and you can open an issue and/or make a PR.
