@@ -31,6 +31,9 @@
     - name: Welcome 2026
       url1: /welcome/
       desc: 🙌
+    - name: AI/LLM policy 
+      url1: /ai/
+      desc: 🤖
     - name: FAQ
       url1: /faq/
       desc: ⁉️
