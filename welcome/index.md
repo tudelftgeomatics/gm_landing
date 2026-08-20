@@ -20,10 +20,11 @@ permalink: /welcome/
 <br>
 
 - - -
+
   
 ## Programme Friday 28 August 2026 @ 10:30--17:00
 
-![](./schedule.png)
+[![](./schedule.png)](./schedule.pdf)
 
 <div role="alert" data-variant="warning">
   <strong>Different building!</strong>Watch out: in the morning the session is not in the building BK-City (Building 8) but at Echo (Building 29); it's a ~12min walk
@@ -52,6 +53,15 @@ Please upload your PPTX or PDF file **before Thursday 27 August at 13:00** via t
 On Monday 31 August (10:45–12:30), we will host a meet-and-greet session with the Geomatics teaching staff. 
 
 This session has been added to your agenda (<https://mytimetable.tudelft.nl/schedule>); you can log in with your netid (if it's been activated) or just search for "geomatics" and you'll see your timetable for the coming 2 quarters.
+
+- - -
+
+## Do you want a buddy to help you settle?
+
+2nd-year geomatics students can help you settle and have a great start.
+
+[Just register](https://forms.cloud.microsoft/pages/responsepage.aspx?id=TVJuCSlpMECM04q0LeCIe5DCC4fDQz5BkR2TOtOI9qlUN0IyVUtGVUVaVE0yVzRQOEJWVzRVNVE1QiQlQCN0PWcu&origin=QRCode&qrcodeorigin=presentation&route=shorturl), we will assign you one.
+
 
 - - -
 
