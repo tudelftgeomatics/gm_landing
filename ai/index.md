@@ -4,37 +4,35 @@ title: Policy for the use of AI/LLM
 permalink: /ai/
 ---
 
-`[draft v2026-08-11]`
+`[draft v2026.08.26]`
 
-<br>
-* auto-generated ToC
-{:toc}
-
-
-## Policy for Students
-
+<ot-tabs data-anchor="policy">
+  <div role="tablist">
+    <button role="tab" id="students">For students</button>
+    <button role="tab" id="teachers">For teachers</button>
+  </div>
+  <div role="tabpanel" markdown="1">
 
 ### General Principle
 
 The use of AI and large language models (LLMs) is permitted in the MSc Geomatics for the Built Environment programme as a learning aid for writing, coding, research, and general exploration.
 AI tools can help you learn, but they must not replace your learning.
 
-| Task | Details |
-| ---- | ------- |
-| ✅ Brainstorming / inspiration         | No disclosure needed unless AI substantially shaped the submitted content |     
-| ✅ Explanation of concepts             | Using LLMs as a "Google on steroids" to help you understand complex concepts |     
-| ✅ Grammar / style / language checking | Tools like Grammarly are treated as general aids; disclose if significant rewriting occurred. Example: asking an LLM to write a 500-word discussion section for your report is substantial; asking it to rephrase one awkward sentence is not. |     
-| ✅ Translation of texts                | Disclose tool in reference list if used for translating academic work  |     
-| ✅ Summarising existing literature     | Always verify AI-generated summaries against original sources; cite the original, not the AI. Making a summary podcast from complex material is also allowed |     
-| ⚠️ Drafting text submitted as assessed work	| Check course-specific guidelines on LLM/AI use for additional requirements. Complete disclosure required — see rules below |
-| ⚠️ Code generation (submitted assignments)	|	Check course-specific guidelines. If allowed, disclose and be prepared to explain every line in an oral authenticity check |
-| ❌ Using AI during a closed written exam	|	Prohibited unless the examiner explicitly permits it and announces this before the exam starts |
-| ❌ Submitting AI-generated code, text, and images without disclosure	|	Counts as fraud — see below |
-
+|    | Task | Details |
+| -- | ---- | ------- |
+| ✅ | Brainstorming / inspiration         | No disclosure needed unless AI substantially shaped the submitted content |     
+| ✅ | Explanation of concepts             | Using LLMs as a "Google on steroids" to help you understand complex concepts |     
+| ✅ | Grammar / style / language checking | Tools like Grammarly are treated as general aids; disclose if significant rewriting occurred. Example: asking an LLM to write a 500-word discussion section for your report is substantial; asking it to rephrase one awkward sentence is not. |     
+| ✅ | Translation of texts                | Disclose tool in reference list if used for translating academic work  |     
+| ✅ | Summarising existing literature     | Always verify AI-generated summaries against original sources; cite the original, not the AI. Making a summary podcast from complex material is also allowed. You are not allowed to submit an AI-summary as your own work. |     
+| ⚠️ | Drafting text submitted as assessed work	| Check course-specific guidelines on LLM/AI use for additional requirements. Complete disclosure required — see rules below |
+| ⚠️ | Code generation (submitted assignments)	|	Check course-specific guidelines. If allowed, disclose and be prepared to explain every line in an oral authenticity check |
+| ❌ | Using AI during a closed written exam	|	Prohibited unless the examiner explicitly permits it and announces this before the exam starts |
+| ❌ | Submitting AI-generated code, text, and images without disclosure	|	Counts as fraud — see below |
 
 ### Your responsibility
 
-As a student, you are **personally and fully responsible** for all work you submit, including any content produced using AI/LLM. 
+As a student, you are **personally and fully responsible** for all work you submit, including any content produced with (the help of) AI/LLM. 
 Concretely, this means:
 
 - You must be able to **explain, defend, and reproduce** the substance of any submitted work.
@@ -74,11 +72,12 @@ The following are considered fraud:
 Whenever you use AI tools in a submitted assignment (and such use is permitted), you **must** include a clear disclosure statement containing:
 
 1. **What:** Name and version of the AI/LLM tool used (e.g. DeepSeek V4 Flash, ChatGPT-5.2, Claude Mythos, etc.)
-2. **How:** Purpose and method of use — what you asked it to do and how you used its output
+2. **How:** Purpose and method of use---what you asked it to do and how you used its output
 3. **Extent:** Describe the scope/extent of your AI/LLM use (e.g. which parts of the work involved AI, at what stage, and how many iterations). Give concrete examples.
 4. **Reflection:** Was your use of the AI/LLM tool helpful? Write a short reflection based on your experience.
 
-(This section does not count towards a maximum number of pages/words and can for small assignments be short, see course instructions.)
+This section does not count towards a maximum number of pages/words.
+It can be short for small assignments (max 1/2 page), and perhaps 1 page for longer reports; see course instructions for more detail.
 
 Failure to disclose use of AI when it has taken place is itself a violation and may be treated as fraud.
 
@@ -99,17 +98,14 @@ If the oral check raises further concerns, the teacher will report the case as s
 
 The BoE determines whether fraud has occurred and decides on sanctions in accordance with the TU Delft Examination Regulations.
 
-
-- - -
-
-
-## Policy for teachers
+</div>
+<div role="tabpanel" markdown="1">
 
 ### Do ✅
 
 1. Publish a clear AI/LLM policy on your course website (on Brightspace or own website) and highlight where/if it differs from the Geomatics one.
-2. Design at least one AI-resilient assessment per course. An AI-resilient assessment requires students to demonstrate process, not just product --- for example, defending their choices orally, showing intermediate drafts, or completing a timed component under supervision. Examples of AI-resilient assessments: in-person exam on paper, oral authenticity check, presentation of results, and in-class task.
-3. If you suspect fraud, report it to the BoE. *You are not the judge, you report facts about your suspicions and the BoE will investigate*.
+2. Design at least one AI-resilient assessment per course. An AI-resilient assessment requires students to demonstrate process, not just product---for example, defending their choices orally, showing intermediate drafts, or completing a timed component under supervision. Examples of AI-resilient assessments: in-person exam on paper, oral authenticity check, presentation of results, and in-class task.
+3. If you suspect fraud, report it to the BoE. *You are not the judge; you report facts about your suspicions and the BoE will investigate*.
 4. For thesis / final project supervision: Plan regular (at least every 2 weeks) interim checks to verify the progress and communicate this to students at the start.
 
 
@@ -117,10 +113,11 @@ The BoE determines whether fraud has occurred and decides on sanctions in accord
 
 1. Use AI-detection software as only evidence of fraud.
 2. Automate grading with AI/LLM without review.
-3. Use AI/LLM tools to process personal student data. Even for TU Delft's CoPilot it is not super sure it's safe. If you need to process student work with AI, ensure all personal identifiers are removed first and use only TU Delft-approved tools (CoPilot at the moment).
+3. Use AI/LLM tools to process personal student data. Even for TU Delft's Copilot it is not certain it is safe (!?). If you need to process student work with AI, ensure all personal identifiers are removed first and use only TU Delft-approved tools (Copilot at the moment).
 
 
-### Consequences
+
+### What to do if you suspect fraud
 
 If you suspect that fraud might have taken place, you must request an oral authenticity check to verify the student's knowledge and authorship of the submitted work.
 
@@ -129,13 +126,16 @@ If the oral check raises further concerns, you have to report the case as suspec
 If the oral authenticity check raises concerns but does not clearly confirm or refute fraud, you may ask them to do a retake of the submitted assignment.
 
 
+</div>
+</ot-tabs>
+
 ## References
 
 > Many parts of these guidelines were taken and adapted from the [excellent TU/e Framework for AI in Engineering Education](https://tueindhoven.ai/education/guidelines/index.html).
 
-- [TU Delft Code of Conduct](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/tu-delft-code-of-conduct)
-- [TU Delft Academic Integrity](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/academic-integrity)
 - [Netherlands Code of Conduct for Research Integrity](https://www.nwo.nl/en/netherlands-code-conduct-research-integrity)
+- [TU Delft Academic Integrity](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/academic-integrity)
+- [TU Delft Code of Conduct](https://www.tudelft.nl/en/about-tu-delft/strategy/integrity-policy/tu-delft-code-of-conduct)
 
 
 ## Typos? Something to improve?
