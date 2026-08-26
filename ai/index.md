@@ -8,8 +8,8 @@ permalink: /ai/
 
 <ot-tabs data-anchor="policy">
   <div role="tablist">
-    <button role="tab" id="students">For students</button>
-    <button role="tab" id="teachers">For teachers</button>
+    <button role="tab" id="students"><b>For students</b></button>
+    <button role="tab" id="teachers"><b>For teachers</b></button>
   </div>
   <div role="tabpanel" markdown="1">
 

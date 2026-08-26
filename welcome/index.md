@@ -12,6 +12,7 @@ permalink: /welcome/
 <div role="alert" >
   <ul>
     <li><a href="https://discord.gg/xSesPFBanc">Discord of Geomatics</a> (see channel <code>#welcome-2026</code>)</li>
+    <li><a href="https://www.tudelft.nl/en/student/a-be-student-portal/education/welcome-new-bk-student/good-start-of-your-master">TU Delft BK page about welcome 2026 (many useful links)</a></li>
     
   </ul>
 </div>
@@ -60,7 +61,7 @@ This session has been added to your agenda (<https://mytimetable.tudelft.nl/sche
 
 2nd-year geomatics students can help you settle and have a great start.
 
-[Just register](https://forms.cloud.microsoft/pages/responsepage.aspx?id=TVJuCSlpMECM04q0LeCIe5DCC4fDQz5BkR2TOtOI9qlUN0IyVUtGVUVaVE0yVzRQOEJWVzRVNVE1QiQlQCN0PWcu&origin=QRCode&qrcodeorigin=presentation&route=shorturl), we will assign you one.
+[Just register](https://forms.gle/4TobcJLEwtdCuW7U6), we will assign you one.
 
 
 - - -
