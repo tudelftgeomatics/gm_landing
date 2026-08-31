@@ -4,7 +4,7 @@ title: Policy for the use of AI/LLM
 permalink: /ai/
 ---
 
-`[draft v2026.08.26]`
+<span class="badge">draft v2026.08.26</span>
 
 <ot-tabs data-anchor="policy">
   <div role="tablist">
