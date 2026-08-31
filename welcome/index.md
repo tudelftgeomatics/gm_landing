@@ -13,6 +13,7 @@ permalink: /welcome/
   <ul>
     <li><a href="https://discord.gg/xSesPFBanc">Discord of Geomatics</a> (see channel <code>#welcome-2026</code>)</li>
     <li><a href="https://www.tudelft.nl/en/student/a-be-student-portal/education/welcome-new-bk-student/good-start-of-your-master">TU Delft BK page about welcome 2026 (many useful links)</a></li>
+    <li><a href="./kickoff-map.pdf">PDF of the "kickoff map"</a></li>
     
   </ul>
 </div>
