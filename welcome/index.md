@@ -24,6 +24,24 @@ permalink: /welcome/
 - - -
 
   
+## Slides Monday 31 August 2026
+
+[see them there](https://surfdrive.surf.nl/s/ep7Fd8rq2cebfMb)
+
+- - -
+
+  
+## Slides Friday 28 August 2026
+
+<div style="aspect-ratio:16/9; max-width:960px; margin-block: var(--space-4)">
+  <iframe src="https://docs.google.com/presentation/d/1kuVJhEPMcB3HxXnrTCVQoysXTZKWe3N9VjDPtRZ4A9s/embed" style="width:100%; height:100%; border:0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+
+
+- - -
+
+  
 ## Programme Friday 28 August 2026 @ 10:30--17:00
 
 [![](./schedule.png)](./schedule.pdf)
