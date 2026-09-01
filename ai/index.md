@@ -4,7 +4,7 @@ title: Policy for the use of AI/LLM
 permalink: /ai/
 ---
 
-<span class="badge">draft v2026.08.26</span>
+<span class="badge">v2026.09.01</span>
 
 <ot-tabs data-anchor="policy">
   <div role="tablist">
@@ -92,19 +92,18 @@ The thesis is the culmination of the MSc Geomatics for the Built Environment pro
 
 ### Consequences
 
-**Suspicion of fraud is sufficient for the teacher to conduct an oral authenticity check** to verify the student's knowledge and authorship of the submitted work.
+**Suspicion of fraud is sufficient for the teacher to conduct an [oral authenticity check](https://www.tudelft.nl/teaching-support/educational-advice/assess/how-to/fraud-resistant-assessment#c1092523)** to verify the student's knowledge and authorship of the submitted work.
 
 If the oral check raises further concerns, the teacher will report the case as suspected fraud to the [**Board of Examiners (BoE)** of the Faculty of Architecture and the Built Environment](https://www.tudelft.nl/en/student/a-be-student-portal/organisation/board-of-examiners).
 
 The BoE determines whether fraud has occurred and decides on sanctions in accordance with the TU Delft Examination Regulations.
-
 </div>
 <div role="tabpanel" markdown="1">
 
 ### Do ✅
 
 1. Publish a clear AI/LLM policy on your course website (on Brightspace or own website) and highlight where/if it differs from the Geomatics one.
-2. Design at least one AI-resilient assessment per course. An AI-resilient assessment requires students to demonstrate process, not just product---for example, defending their choices orally, showing intermediate drafts, or completing a timed component under supervision. Examples of AI-resilient assessments: in-person exam on paper, oral authenticity check, presentation of results, and in-class task.
+2. Design at least one AI-resilient assessment per course. An AI-resilient assessment requires students to demonstrate process, not just product---for example, defending their choices orally, showing intermediate drafts, or completing a timed component under supervision. Examples of AI-resilient assessments: in-person exam on paper, [oral authenticity check](https://www.tudelft.nl/teaching-support/educational-advice/assess/how-to/fraud-resistant-assessment#c1092523), presentation of results, and in-class task. TU Delft gives concrete examples: <https://www.tudelft.nl/teaching-support/educational-advice/assess/how-to/fraud-resistant-assessment>
 3. If you suspect fraud, report it to the BoE. *You are not the judge; you report facts about your suspicions and the BoE will investigate*.
 4. For thesis / final project supervision: Plan regular (at least every 2 weeks) interim checks to verify the progress and communicate this to students at the start.
 
