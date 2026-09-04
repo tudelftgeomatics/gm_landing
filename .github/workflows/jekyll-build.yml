@@ -1,25 +1,27 @@
 name: jekyll build
 
-on: 
+on:
   push:
-    branches: 
-    - main
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up Ruby
-      run: sudo apt install ruby-full
-    - name: Install dependencies
-      run: |
-        sudo gem install jekyll jekyll-redirect-from
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
+
+    # Reads Gemfile.lock and installs the exact pinned versions,
+    # caching them between CI runs (bundler-cache: true).
+    # Respects .bundle/config (gems go into vendor/bundle, no sudo needed).
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+
     - name: jekyll build
-      run: |
-        jekyll build --trace
+      run: bundle exec jekyll build --trace
+
     - name: trigger update
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
