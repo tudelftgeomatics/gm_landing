@@ -1,0 +1,26 @@
+name: jekyll build
+
+on: 
+  push:
+    branches: 
+    - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Ruby
+      run: sudo apt install ruby-full
+    - name: Install dependencies
+      run: |
+        sudo gem install jekyll jekyll-redirect-from
+    - uses: actions/checkout@v1
+    - name: jekyll build
+      run: |
+        jekyll build --trace
+    - name: trigger update
+      env:
+        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      run: 'curl -fL -H "X-Deploy-Token: ${DEPLOY_TOKEN}" ${{ secrets.NEW_UPDATE_URL }}'
