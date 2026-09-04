@@ -1,29 +1,22 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 4.3.4"
 
-# Required by Jekyll 4.3.4 on Ruby >= 3.4 (removed from default gems)
+# Jekyll 4.3.4+ requires Ruby >= 2.7, but the gems below (csv, logger) need >= 3.0.
+# Declaring it here gives a clear error instead of a cryptic "requires ruby >= 3.0"
+# when building on old system Rubies (e.g. Ubuntu 20.04's Ruby 2.7).
+ruby ">= 3.0"
+
+# Allow any Jekyll 4.x so machines with slightly different installs still build.
+# The Gemfile.lock pins the exact version for reproducible builds; run
+# `bundle update jekyll` if you want to move that pin deliberately.
+gem "jekyll", ">= 4.3.4", "< 5"
+
+# Removed from Ruby's default gems in Ruby 3.4, so Jekyll needs them explicitly
+# on newer Rubies. Installing them on older Rubies is harmless.
 gem "csv"
 gem "base64"
 gem "logger"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-# gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.12"
-# end
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
