@@ -25,4 +25,4 @@ jobs:
     - name: trigger update
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-      run: 'curl -fL -H "X-Deploy-Token: ${DEPLOY_TOKEN}" ${{ secrets.NEW_UPDATE_URL }}'
+      run: 'curl -fL -H "X-Deploy-Token: ${DEPLOY_TOKEN}" ${{ secrets.UPDATE_URL }}'
