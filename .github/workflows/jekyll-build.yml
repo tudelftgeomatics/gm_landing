@@ -11,18 +11,19 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # Reads Gemfile.lock and installs the exact pinned versions,
-    # caching them between CI runs (bundler-cache: true).
-    # Respects .bundle/config (gems go into vendor/bundle, no sudo needed).
+    # Installs Ruby 3.3 and puts `gem`/`jekyll` on the PATH
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.3'
-        bundler-cache: true
+
+    # Pin the version so CI builds identically to local/server builds
+    - name: install jekyll
+      run: gem install jekyll -v 4.3.4
 
     - name: jekyll build
-      run: bundle exec jekyll build --trace
+      run: jekyll build --trace
 
     - name: trigger update
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-      run: 'curl -fL -H "X-Deploy-Token: ${DEPLOY_TOKEN}" ${{ secrets.UPDATE_URL }}'
+      run: 'curl -fL -H "X-Deploy-Token: ${DEPLOY_TOKEN}" ${{ secrets.NEW_UPDATE_URL }}'

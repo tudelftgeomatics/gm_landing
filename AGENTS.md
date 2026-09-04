@@ -6,11 +6,11 @@ Uses the [Oat](https://oat.ink/) UI library — semantic, zero-dependency, ~7KB 
 ## Dev commands
 
 ```sh
-bundle install           # install Ruby deps (Gemfile)
-bundle exec jekyll serve # local dev server at http://localhost:4000
+gem install jekyll -v 4.3.4 # one-time setup (no Gemfile in this repo)
+jekyll serve                # local dev server at http://localhost:4000
 ```
 
-`minima` is listed in the Gemfile but commented out — **not used**. The site uses custom `_layouts/` only.
+No Gemfile / Bundler — Jekyll is installed globally and run directly. The site uses custom `_layouts/` only.
 Restart `jekyll serve` after editing `_config.yml` (it is not auto-reloaded).
 
 ## Content model
